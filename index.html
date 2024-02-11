@@ -24,8 +24,8 @@
 <body">
 
     <!-- header section------------- -->
-    <header class="container mx-auto">
-        <div class="navbar bg-[#F85559] text-white rounded-full py-7 my-12 px-12">
+    <header class="container mx-auto px-3">
+        <div class="navbar bg-[#F85559] text-white rounded-full py-7 my-12 px-2 md:px-12 flex-col sm:flex-row gap-y-8">
 
             <!-- navbar strat --------- -->
             <div class="navbar-start hidden lg:flex">
@@ -55,15 +55,17 @@
                         <li><a class="p-3">All Fruits</a></li>
                     </ul>
                 </div>
-                <a class="btn bg-[#F85559] hover:bg-[#F85559] text-white border-0 text-4xl font-bold"><img
+                <a class=" px-0 btn bg-[#F85559] hover:bg-[#F85559] text-white border-0 text-3xl sm:text-4xl font-bold"><img
                         src="images/logo.png" alt=""> Fruit Burst</a>
             </div>
 
             <!-- navbar end --------- -->
-            <div class="navbar-end">
+            <div class="navbar-end hidden sm:flex">
+
+
                 <div class="form-control text-[#12121266] text-lg bg-white flex-row rounded-full">
                     <input type="search" placeholder="Search here"
-                        class="input border-0 input-bordered w-24 md:w-auto rounded-l-full" />
+                        class="input border-0 input-bordered md:w-auto rounded-l-full w-full" />
 
 
                     <button class="btn btn-ghost btn-circle">
@@ -93,7 +95,8 @@
                         <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mb-6">Exotic tastes at
                             your <br>
                             doorstep</h1>
-                        <p class="font-medium text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products</p>
+                        <p class="font-medium sm:text-xl mb-8 w-2/3 mx-auto">We supply highly quality organic
+                            products</p>
                         <button
                             class="btn bg-[#F85559] hover:bg-[#F85559] text-white font-extrabold text-xl rounded-2 border-0">Shop
                             Now</button>
@@ -117,7 +120,8 @@
                         <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mb-6">Exotic tastes at
                             your <br>
                             doorstep</h1>
-                        <p class="font-medium text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products</p>
+                        <p class="font-medium sm:text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products
+                        </p>
                         <button
                             class="btn bg-[#F85559] hover:bg-[#F85559] text-white font-extrabold text-xl rounded-2 border-0">Shop
                             Now</button>
@@ -140,7 +144,8 @@
                         <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mb-6">Exotic tastes at
                             your <br>
                             doorstep</h1>
-                        <p class="font-medium text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products</p>
+                        <p class="font-medium sm:text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products
+                        </p>
                         <button
                             class="btn bg-[#F85559] hover:bg-[#F85559] text-white font-extrabold text-xl rounded-2 border-0">Shop
                             Now</button>
@@ -163,7 +168,8 @@
                         <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-extrabold mb-6">Exotic tastes at
                             your <br>
                             doorstep</h1>
-                        <p class="font-medium text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products</p>
+                        <p class="font-medium sm:text-xl mb-8 w-3/4 mx-auto">We supply highly quality organic products
+                        </p>
                         <button
                             class="btn bg-[#F85559] hover:bg-[#F85559] text-white font-extrabold text-xl rounded-2 border-0">Shop
                             Now</button>
@@ -206,37 +212,37 @@
 
     <!-- main section ----------- -->
 
-    <main class="container mx-auto">
+    <main class="container mx-auto px-3">
 
         <!-- Deal of the day-------- -->
-        <section class="mb-32">
+        <section class="mb-32 mt-6">
 
-            <div class="grid grid-cols-2 mb-12">
-                <div>
-                    <h1 class="font-extrabold text-5xl mb-6">Deal of the day</h1>
-                    <p class="w-3/4 font-medium ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 mb-12">
+                <div class="mb-5 text-center sm:text-left">
+                    <h1 class="font-extrabold text-2xl sm:text-5xl mb-6">Deal of the day</h1>
+                    <p class="w-3/4 font-medium mx-auto sm:mx-0">
                         Contrary to popular belief, is not simply random text. It has roots in a piece of classical
                         Latin literature from 45 BC, making it over 2000 years old.
                     </p>
                 </div>
 
-                <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-end">
+                <div class="grid grid-flow-col gap-3 sm:gap-5 text-center auto-cols-max justify-center sm:justify-end">
                     <div class="flex flex-col">
-                        <span class="countdown font-extrabold text-5xl mb-2">
+                        <span class="countdown font-extrabold text-4xl sm:text-5xl mb-2">
                             <span style="--value:15;"></span>
                             :
                         </span>
                         days
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-extrabold text-5xl mb-2 ">
+                        <span class="countdown font-extrabold text-4xl sm:text-5xl mb-2 ">
                             <span style="--value:10;"></span>
                             :
                         </span>
                         hours
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-extrabold text-5xl mb-2">
+                        <span class="countdown font-extrabold text-4xl sm:text-5xl mb-2">
                             <span style="--value:24;">
 
                             </span>
@@ -245,7 +251,7 @@
                         min
                     </div>
                     <div class="flex flex-col">
-                        <span class="countdown font-extrabold text-5xl mb-2">
+                        <span class="countdown font-extrabold text-4xl sm:text-5xl mb-2">
                             <span style="--value:19;"></span>
 
                         </span>
@@ -295,7 +301,7 @@
 
                         </div>
 
-                        <div class="card-actions">
+                        <div class="card-actions mx-3">
 
 
                             <!-- <button
@@ -714,7 +720,7 @@
             <!-- team section info------- -->
             <div class="absolute left-0 top-[120px] w-full">
                 <div class="text-white text-center mb-12">
-                    <h1 class="text-5xl text-white font-extrabold mb-6">
+                    <h1 class="text-2xl sm:text-5xl text-white font-extrabold mb-6">
                         Meet the team section
                     </h1>
 
@@ -836,7 +842,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
 
-                <div>
+                <div class="order-2 sm:order-1">
 
                     <!-- 1--------- -->
                     <div class="flex gap-6 mb-12">
@@ -899,11 +905,11 @@
 
                 </div>
 
-                <div class="flex justify-center">
+                <div class="flex justify-center order-1 sm:order-2">
                     <img class="rounded-lg h-[414px]" src="images/whychoose1.png" alt="">
                 </div>
 
-                <div>
+                <div class="order-3">
 
                     <!-- 1----------- -->
                     <div class="flex gap-6 mb-12 text-right flex-row-reverse">
@@ -989,7 +995,7 @@
                         Burst</a>
 
                     <div class="">
-                        <ul class="menu menu-horizontal px-1 text-lg font-semibold mt-16 sm:mt-7">
+                        <ul class="menu menu-horizontal px-1 text-lg font-semibold mt-16 sm:mt-7 justify-center">
                             <li><a>Home</a></li>
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
